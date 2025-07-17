@@ -51,15 +51,9 @@ State transitions are driven by:
 - Test both pedestrian requests (NS at ~15.6 µs, EW at ~17.6 µs)  
 - Observe behavior on `leds[7:0]` and `seg7` output
 
-## 📁 File Structure
+## 📷 System Overview
 
-```plaintext
-├── LogicalStep_Lab4_top.vhd         # Top-level structural VHDL file
-├── state_machine.vhd                # TLC state machine logic
-├── synchronizer.vhd                 # 2-stage input synchronizers
-├── holding_register.vhd            # Latches for pedestrian inputs
-├── segment7_mux.vhd                 # 7-segment control
-├── clock_generator.vhd              # Generates sm_clken and blink_sig
-├── pb_filters.vhd                   # Debounces pushbuttons
-├── tb_*.vwf                         # Simulation test waveforms
+### 🔧 Traffic Light Controller (TLC) Block Diagram (From Manual)
 
+![Traffic Light Controller TLC Block Diagram](https://github.com/user-attachments/assets/7bd3bbe5-8b91-43b2-aacb-bdd3c482509a)
+*(Reference from ECE 124 Lab Manual)*
