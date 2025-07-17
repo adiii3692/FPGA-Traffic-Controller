@@ -55,5 +55,5 @@ State transitions are driven by:
 
 ### 🔧 Traffic Light Controller (TLC) Block Diagram (From Manual)
 
-![Traffic Light Controller TLC Block Diagram](https://github.com/user-attachments/assets/7bd3bbe5-8b91-43b2-aacb-bdd3c482509a)
+![Traffic Light Controller TLC Block Diagram](https://github.com/user-attachments/assets/ddabd491-b327-4c51-ae5c-46a6125b517c)
 *(Reference from ECE 124 Lab Manual)*
